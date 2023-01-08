@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            background-color: rgb(102, 140, 159);
+            text-align:center;
+            color: rgb(58, 151, 154);
+            padding-top: 10%;
+        }
+        h1{
+            text-align: center;
+            text-decoration: solid;
+            color:rgb(12, 10, 140);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+            color: yellowgreen;
+        }
+        button{
+            color: whitesmoke;
+            background-color: rgb(149, 109, 144);
+        }
+        div{
+            margin-top: 5%;
+        }
+        input{
+            margin-left: 2%;
+            text-align: center;
+        }
+
+        ::-webkit-input-placeholder {
+            text-align: center;
+        }
+
+        :-moz-placeholder {
+            text-align: center;
+        }
+        button{
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p>Enter 1, 2, 3, and 4 respectively for addition, Subtraction, product, and divide in operation</p>
+    <div>
+        <form action="/" method="post">
+            <input type="text" name="num1" placeholder="input1">
+            <input type="text" name="operation" placeholder="Operation">
+             
+            <!-- <select name="operation">
+                <option value="addtion">1</option>
+                <option value="Subtraction">2</option>
+                <option value="Product">3</option>
+                <option value="Divide">4</option>
+            </select> -->
+            <input type="text" name="num2" placeholder="input2">
+            
+            <br>
+            <button type="submit" name="submit">Calculate</button>
+        </form>
+    </div>
+    
+</body>
+</html>
